@@ -55,3 +55,6 @@ Open the Power BI report and use slicers to explore churn patterns by different 
 
 ---
 If you’re a recruiter or hiring manager: this project demonstrates KPI design, segmentation analysis, insight generation, and recommendation-driven business analysis using Power BI.
+
+## Dashboard
+![Customer Churn Dashboard](dashboard.png)
