@@ -1,3 +1,11 @@
+## Project summary (for recruiters)
+
+**Role:** Business Analyst (portfolio project)  
+**Goal:** Understand why customers churn and identify high-risk segments to support retention decisions.  
+**Outcome:** Built an interactive Power BI dashboard showing churn KPIs and key churn drivers, and proposed data-driven retention actions.  
+**Methods:** Data cleaning (Power Query), KPI design (Churn Rate), segmentation analysis (contract type, payment method), churn category/reason analysis, insight-to-recommendation translation.  
+**Key results:** Overall churn rate **26.54%**; highest-risk segment is **month-to-month contracts (45.84% churn)**; churn is strongly associated with payment method and competitor-related reasons.
+
 # Customer Churn Analysis (Power BI)
 
 This repository contains a **Power BI dashboard** that analyzes customer churn and highlights **who is most likely to churn, why they churn, and what actions can reduce churn**. The focus is business analysis: clear KPIs, segmentation, and actionable recommendations.
