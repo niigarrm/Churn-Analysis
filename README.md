@@ -1,17 +1,23 @@
-## Project summary (for recruiters)
-
-**Role:** Business Analyst (portfolio project)  
-**Goal:** Understand why customers churn and identify high-risk segments to support retention decisions.  
-**Outcome:** Built an interactive Power BI dashboard showing churn KPIs and key churn drivers, and proposed data-driven retention actions.  
-**Methods:** Data cleaning (Power Query), KPI design (Churn Rate), segmentation analysis (contract type, payment method), churn category/reason analysis, insight-to-recommendation translation.  
-**Key results:** Overall churn rate **26.54%**; highest-risk segment is **month-to-month contracts (45.84% churn)**; churn is strongly associated with payment method and competitor-related reasons.
-
 # Customer Churn Analysis (Power BI)
 
-This repository contains a **Power BI dashboard** that analyzes customer churn and highlights **who is most likely to churn, why they churn, and what actions can reduce churn**. The focus is business analysis: clear KPIs, segmentation, and actionable recommendations.
+## Project summary (for recruiters)
+- **Role:** Business Analyst (portfolio project)
+- **Goal:** Understand why customers churn and identify high-risk segments to support retention decisions.
+- **Outcome:** Built an interactive Power BI dashboard showing churn KPIs and key churn drivers, and proposed data-driven retention actions.
+- **Methods:** Data cleaning (Power Query), KPI design (Churn Rate), segmentation analysis (contract type, payment method), churn category/reason analysis, insight-to-recommendation translation.
+- **Key results:** Overall churn rate **26.54%**; highest-risk segment is **month-to-month contracts (45.84% churn)**; churn is strongly associated with payment method and competitor-related reasons.
 
-## Project goal
-- Measure churn performance with portfolio-level KPIs
+## Dashboard
+![Customer Churn Dashboard](dashboard.png)
+
+## Report
+- [Read the full report (PDF)](churn%20analysis.pdf)
+
+## Dataset
+Public telco churn dataset with customer attributes and churn outcome (**Churn Label**), plus churn category/reason fields.
+
+## Project goals
+- Measure churn performance with KPI tracking
 - Identify **high-risk customer segments** (e.g., contract type, payment method)
 - Understand the **main churn categories and churn reasons**
 - Provide **data-driven retention recommendations**
@@ -52,9 +58,3 @@ This repository contains a **Power BI dashboard** that analyzes customer churn a
 
 ## How to use
 Open the Power BI report and use slicers to explore churn patterns by different customer segments.
-
----
-If you’re a recruiter or hiring manager: this project demonstrates KPI design, segmentation analysis, insight generation, and recommendation-driven business analysis using Power BI.
-
-## Dashboard
-![Customer Churn Dashboard](dashboard.png)
